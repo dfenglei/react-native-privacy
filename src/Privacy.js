@@ -123,7 +123,7 @@ export default class Privacy extends Component {
                     bounces={false}
                     scalesPageToFit={true}
                     source={{
-                        uri: {this.props.accessSite},
+                        uri: this.props.accessSite,
                         method: 'GET',
                         headers: { 'Cache-Control': 'no-cache' }
                     }}
@@ -154,4 +154,3 @@ const styles = StyleSheet.create({
         width: kwidth,
     }
 })
-export default withNavigation(Privacy);
