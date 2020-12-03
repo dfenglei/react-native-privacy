@@ -1,0 +1,20 @@
+{
+  "name": "react-native-privacy",
+  "version": "1.0.0",
+  "description": "A simple React Native component that implements a privacy policy UI.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "Fenglei Dou",
+  "license": "MIT",
+  "dependencies": {
+    "react-native-webview": "^1.0.0"
+  },
+  "devDependencies": {
+    "metro-react-native-babel-preset": "^0.64.0"
+  }
+}
