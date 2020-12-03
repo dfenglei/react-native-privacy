@@ -1,3 +1,3 @@
-import Privacy from  'src/Privacy';
+import Privacy from  './src/Privacy';
 
 export { Privacy };
